@@ -28,7 +28,7 @@ class CategoriesRepository {
         return this.categories;
     }
 
-    findbyName(name:string): Category{
+    findByName(name:string): Category{
         const category = this.categories.find((category)=>category.name === name)
         return category;
     }
