@@ -26,3 +26,4 @@ docker-compose stop
 
 ### execute migration
 
+yarn typeorm migration:run
