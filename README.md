@@ -15,3 +15,11 @@ docker ps
 ### accessing project container
 
 docker exec -it pensive_bhabha /bin/bash
+
+### docker-compose comands
+
+docker-compose up -d
+
+docker logs -f rentx
+
+docker-compose stop
