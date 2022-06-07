@@ -12,7 +12,6 @@ const upload = multer({
 });
 
 categoriesRoutes.post("/", (request, response) => {
-    console.log("Reload funcionando fasf a");
     return createCategoryController.handle(request, response)
 });
 

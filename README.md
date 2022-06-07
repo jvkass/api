@@ -4,7 +4,7 @@
 
 docker build -t rentx .
 
-### project start in docker
+### project start in docker with dockerfile
 
 docker run -p 3333:3333 rentx
 
@@ -23,3 +23,6 @@ docker-compose up -d
 docker logs -f rentx
 
 docker-compose stop
+
+### execute migration
+
