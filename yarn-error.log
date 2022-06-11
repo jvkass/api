@@ -1,8 +1,8 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\jvmat\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add tsyringe
+  C:\Program Files\nodejs\node.exe C:\Users\jvmat\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add bcryptjs
 
 PATH: 
-  D:\Users\jvmat\OneDrive\Documentos\cmder\vendor\conemu-maximus5\ConEmu\Scripts;D:\Users\jvmat\OneDrive\Documentos\cmder\vendor\conemu-maximus5;D:\Users\jvmat\OneDrive\Documentos\cmder\vendor\conemu-maximus5\ConEmu;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\GitHub CLI\;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\ProgramData\chocolatey\bin;E:\Pos graduação\flutter\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\jvmat\AppData\Local\Microsoft\WindowsApps;C:\Users\jvmat\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jvmat\AppData\Roaming\npm;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;D:\Users\jvmat\OneDrive\Documentos\cmder\vendor\bin;D:\Users\jvmat\OneDrive\Documentos\cmder
+  D:\Users\jvmat\OneDrive\Documentos\cmder\vendor\conemu-maximus5\ConEmu\Scripts;D:\Users\jvmat\OneDrive\Documentos\cmder\vendor\conemu-maximus5;D:\Users\jvmat\OneDrive\Documentos\cmder\vendor\conemu-maximus5\ConEmu;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\GitHub CLI\;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\ProgramData\chocolatey\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\jvmat\flutter\bin;C:\Users\jvmat\AppData\Local\Microsoft\WindowsApps;C:\Users\jvmat\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jvmat\AppData\Roaming\npm;C:\Users\jvmat\.dotnet\tools;C:\Users\jvmat\flutter\bin;C:\tools\dart-sdk\bin;C:\Users\jvmat\AppData\Roaming\Pub\Cache\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;D:\Users\jvmat\OneDrive\Documentos\cmder\vendor\bin;D:\Users\jvmat\OneDrive\Documentos\cmder
 
 Yarn version: 
   1.22.15
@@ -33,6 +33,7 @@ npm manifest:
       "pg": "^8.7.3",
       "reflect-metadata": "^0.1.13",
       "swagger-ui-express": "^4.4.0",
+      "tsyringe": "^4.7.0",
       "typeorm": "0.2.45",
       "uuid": "^8.3.2"
     },
@@ -2321,7 +2322,7 @@ Lockfile:
       strip-bom "^3.0.0"
       strip-json-comments "^2.0.0"
   
-  tslib@^1.8.1:
+  tslib@^1.8.1, tslib@^1.9.3:
     version "1.14.1"
     resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
     integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
@@ -2337,6 +2338,13 @@ Lockfile:
     integrity sha512-mHKK3iUXL+3UF6xL5k0PEhKRUBKPBCv/+RkEOpjRWxxx27KKRBmmA60A9pgOUvMi8GKhRMPEmjBRPzs2W7O1OA==
     dependencies:
       tslib "^1.8.1"
+  
+  tsyringe@^4.7.0:
+    version "4.7.0"
+    resolved "https://registry.yarnpkg.com/tsyringe/-/tsyringe-4.7.0.tgz#aea0a9d565385deebb6def60cda342b15016f283"
+    integrity sha512-ncFDM1jTLsok4ejMvSW5jN1VGPQD48y2tfAR0pdptWRKYX4bkbqPt92k7KJ5RFJ1KV36JEs/+TMh7I6OUgj74g==
+    dependencies:
+      tslib "^1.9.3"
   
   type-check@^0.4.0, type-check@~0.4.0:
     version "0.4.0"
