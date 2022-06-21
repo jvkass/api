@@ -1,5 +1,5 @@
-import { ICategoriesRepository } from "../../repositories/ICategoriesRepository";
 
+import { ICategoriesRepository } from '@modules/cars/repositories/ICategoriesRepository';
 import { parse } from 'csv-parse';
 import fs from 'fs';
 import { inject, injectable } from "tsyringe";
